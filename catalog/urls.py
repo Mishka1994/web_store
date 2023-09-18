@@ -4,5 +4,5 @@ from catalog.views import user_controller, user_contact_page
 
 urlpatterns = [
     path('', user_controller),
-    path('', user_contact_page),
+    path('templates/catalog/contact_into.hmtl', user_contact_page),
 ]
